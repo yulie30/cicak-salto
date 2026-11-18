@@ -1,2 +1,2 @@
-# simulasi-kelas-
+# simulasi-kelompok
 Materi simulasi kerja kelompok
