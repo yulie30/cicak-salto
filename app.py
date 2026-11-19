@@ -13,7 +13,7 @@ import streamlit as st
 
 st.set_page_config (
     page_title="Kelompok 007",
-    page_icon="X",
+    page_icon="x",
     layout="wide"
 )
 
@@ -21,15 +21,15 @@ st.title("Proyek Kelompok 007")
 st.caption("Aplikasi streamlit kelompok 007")
 
 pages = [
-    st.Page("page1.py", title="Home", icon="A"),
-    st.Page("page2.py", title="Data", icon='D'),
-    st.Page("page3.py", title="Visualisasi", icon='V'),
-    st.Page("page4.py", title="Profil", icon="P")
+    st.Page("page1.py", title="Home", icon="🏠"),
+    st.Page("page2.py", title="Data", icon="📊"),
+    st.Page("page3.py", title="Visualisasi", icon="📈"),
+    st.Page("page4.py", title="Profil", icon="👤")
 ]
 
 pg = st.navigation (
     pages,
-    position = 'sidebar',
+    position = "sidebar",
     expanded = True
 )
 
